@@ -1,0 +1,28 @@
+body {
+  background-image: url(fondo1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 15vh;
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  height: 350px;
+  justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+.form_reloj {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #333;
+    position: relative;
+  }
+  
+  .clock div {
+    position: absolute;
+    background: #333;
+    transform-origin: center;
+  }
